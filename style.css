@@ -1,0 +1,93 @@
+body{
+	margin: 0 auto;
+	font-family: sans-serif;
+  	color: #333;
+}
+#container{
+	width: 1366px;
+	height: 829px;
+	margin: 0 auto;
+}
+#banner-top{
+	width: 1140px;
+	height: 155px;
+	background-image: url(banner.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+#menu{
+	width: 1140px;
+	height: 50px;
+	background-color: #EB1515;
+	margin: auto;
+}
+#banner-bottom{
+	width: 1140px;
+	height: 334px;
+	background-color: #F5CB05;
+	background-image: url(chieusinh.png);
+	background-repeat: no-repeat;
+	margin: auto;
+}
+#bottom{
+	width: 1140px;
+	height: 290px;
+	margin: 0 auto;
+	background-color: #FC01E1
+}
+#bottom .bottom-left{
+	float: left;
+	width: 684px;
+	height: 200px;
+	background-color:#FF0000;
+	text-align: center;
+	padding-top: 90px;
+	color: #FFFFFF;
+}
+#bottom .bottom-right{
+	float: right;
+	width: 456px;
+	height: 290px;
+	background-color: #37E808;
+	background-image: url(fireworks.gif);
+}
+/*==Style cho menu===*/
+#menu ul {
+  background: #31B9F3;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background:#686666;
+
+}
+/*==Dropdown Menu==*/
+.sub-menu li {
+  display: none;
+}
+#menu li {
+ position: relative;
+}
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
